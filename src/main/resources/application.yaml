@@ -1,12 +1,9 @@
 server:
   port: 7777
-
 spring:
-  profiles:
-    active: ${ENV:dev}
-  main:
-    web-application-type: none
-    allow-circular-references: true
+  datasource:
+    url: jdbc:mysql://root:nJeGhlsXRnEwqObtRYnhDNQOFbcLGviU@autorack.proxy.rlwy.net:55751/railway  # Correct JDBC URL without credentials        # Specify the password here
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
     properties:

@@ -10,8 +10,14 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 @CrossOrigin
 public class BharatPaymentsApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(BharatPaymentsApplication.class, args);
-	}
+    public static void main(String[] args) {
+        try {
+            SpringApplication.run(BharatPaymentsApplication.class, args);
+        } catch (Exception e) {
+            System.err.println("Application failed to start: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+
 
 }
