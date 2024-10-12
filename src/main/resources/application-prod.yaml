@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://mysql.railway.internal:3306/railway
+    url: mysql://root:nJeGhlsXRnEwqObtRYnhDNQOFbcLGviU@mysql.railway.internal:3306/railway
     username: root
     password: nJeGhlsXRnEwqObtRYnhDNQOFbcLGviU
     driver-class-name: com.mysql.cj.jdbc.Driver
