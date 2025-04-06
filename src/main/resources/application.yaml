@@ -2,7 +2,7 @@ server:
   port: 7777
 spring:
   datasource:
-    url: jdbc:mysql://root:nJeGhlsXRnEwqObtRYnhDNQOFbcLGviU@autorack.proxy.rlwy.net:55751/railway  # Correct JDBC URL without credentials        # Specify the password here
+    url: jdbc:mysql://root:caerLbhXCnGpvZpMRAYDAceQLBVhuEBL@mysql.railway.internal:3306/railway  # Correct JDBC URL without credentials        # Specify the password here
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
